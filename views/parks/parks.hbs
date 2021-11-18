@@ -1,0 +1,9 @@
+<h3>PARKS LIST</h3>
+<ul>
+  {{#each allParks}}
+    {{!-- <a href="/Parks/details/{{_id}}"> --}}
+      <li>{{name}} escrito por {{description}}</li>
+    {{!-- </a> --}}
+  {{/each}}
+</ul>
+<a href="/parks/new">Create Park</a>
